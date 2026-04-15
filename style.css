@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+nav h4.subtitle {
+  color: #fdf0d5;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #005f73;
+}
+
+.navbar-menu {
+    background-color: #005f73; /* couleur sombre exemple */
+} 
+
+body{
+  background-color: #fdf0d5;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+.navbar-bouton img {
+    max-height: none;
+    height: 60px;
+    width: auto;
+}
+
+#presentation{
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 5rem;
+}
+
+.comp h5{
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.bio{
+  font-size: 1.15rem;
+  background-color: #fad996;
+  border-radius: 1.5rem;
+}
+
+.rose{
+  background-image: url("./media/images/rose.png");
+}
+
+.bleu{
+  background-image: url("./media/images/bleu.png");
+}
+
+.orange{
+  background-image: url("./media/images/orange.png");
+}
+
+.vert{
+  background-image: url("./media/images/vert.png");
+}
+
+.jaune{
+  background-image: url("./media/images/jaune.png");
+}
+
+.txtcomp{
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgba(7, 7, 7, 0.719);
+}
+
+.comp .icon{
+    color: #242222;
+}
+
+.footer{
+  background-color: #005f73;
+  color: #fdf0d5
+}
+
+.footer button{
+  background-color:#005f73;
+}
+
+
+.carousel{
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-formecss {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.carousel-formecss > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.projet img{
+  border-radius: 1rem;
+}
+
+.tag{
+  background-color: #fdf0d5;
+  color: #005f73;
+
+}
+
+.projet .button{
+  background-color: #fdf0d5;
+  color: #005f73;
+}
+
+#cv{
+  margin-top: 18rem;
+}
+
